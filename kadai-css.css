@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+header {
+    background-color: #ffcccc;
+}
+
+body{
+    width: 1000px;
+}
+
+nav#menu {
+    float: right;
+    background-color: #ccccff;
+    width: 300px;
+}
+
+div#main {
+    float: left;
+    background-color: #ccffcc;
+    width: 700px;    
+}
+
+footer {
+  background-color: #ffccff;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
